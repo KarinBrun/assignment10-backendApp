@@ -68,6 +68,16 @@ app.get('/health', (req, res) => {
     });
 });
 
+// Test check endpoint
+app.get('/test', (req, res) => {
+    res.json({ 
+        status: 'OK', 
+        message: 'Task API is running',
+        environment: process.env.NODE_ENV,
+        timestamp: new Date().toISOString()
+    });
+});
+
 // Root endpoint
 app.get('/', (req, res) => {
     res.json({
