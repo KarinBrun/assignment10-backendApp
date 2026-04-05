@@ -1,3 +1,6 @@
+# API URL
+https://assignment10-backendapp.onrender.com/
+
 # Task Management API
 
 A REST API for managing tasks with user authentication, built with Node.js, Express, and SQLite.
